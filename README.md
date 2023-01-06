@@ -1,5 +1,7 @@
 # flexalon-examples
 
+[<img src="https://www.flexalon.com/flexalon-logo.png" alt="Flexalon Logo" width="300"/>](https://www.flexalon.com)
+
 This repo contains open source examples for using [**Flexalon 3D Layouts**](https://www.flexalon.com).
 
 Get Flexalon 3D Layouts on the [Unity Asset Store](https://assetstore.unity.com/packages/tools/utilities/flexalon-3d-layouts-230509?aid=1101lqSYn).
