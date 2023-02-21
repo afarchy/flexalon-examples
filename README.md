@@ -1,6 +1,6 @@
 # flexalon-examples
 
-[<img src="https://www.flexalon.com/flexalon-logo.png" alt="Flexalon Logo" width="300"/>](https://www.flexalon.com)
+[<img src="https://360tourdata.blob.core.windows.net/email/flexalon-logo.png" alt="Flexalon Logo" width="300"/>](https://www.flexalon.com)
 
 This repo contains open source examples for using [**Flexalon 3D Layouts**](https://www.flexalon.com).
 
