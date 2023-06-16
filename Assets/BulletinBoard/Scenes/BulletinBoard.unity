@@ -357,6 +357,7 @@ MonoBehaviour:
   _animatePosition: 1
   _animateRotation: 1
   _animateScale: 1
+  _animateInWorldSpace: 1
 --- !u!114 &42715359
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -373,12 +374,13 @@ MonoBehaviour:
   _maxClickTime: 0.1
   _draggable: 1
   _interpolationSpeed: 10
+  _insertRadius: 0.5
   _restriction: 1
   _planeNormal: {x: 0, y: 0, z: 1}
   _lineDirection: {x: 1, y: 0, z: 0}
   _localSpaceRestriction: 1
   _holdOffset: {x: 0, y: 0, z: -0.2}
-  _localSpaceOffset: 1
+  _localSpaceOffset: 0
   _rotateOnDrag: 0
   _holdRotation: {x: 0, y: 0, z: 0, w: 0}
   _localSpaceRotation: 1
@@ -631,6 +633,7 @@ MonoBehaviour:
   _animatePosition: 1
   _animateRotation: 1
   _animateScale: 1
+  _animateInWorldSpace: 1
 --- !u!114 &325262150
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -647,12 +650,13 @@ MonoBehaviour:
   _maxClickTime: 0.1
   _draggable: 1
   _interpolationSpeed: 10
+  _insertRadius: 0.5
   _restriction: 1
   _planeNormal: {x: 0, y: 0, z: 1}
   _lineDirection: {x: 1, y: 0, z: 0}
   _localSpaceRestriction: 1
   _holdOffset: {x: 0, y: 0, z: -0.2}
-  _localSpaceOffset: 1
+  _localSpaceOffset: 0
   _rotateOnDrag: 0
   _holdRotation: {x: 0, y: 0, z: 0, w: 0}
   _localSpaceRotation: 1
@@ -905,6 +909,7 @@ MonoBehaviour:
   _animatePosition: 1
   _animateRotation: 1
   _animateScale: 1
+  _animateInWorldSpace: 1
 --- !u!114 &388914110
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -921,12 +926,13 @@ MonoBehaviour:
   _maxClickTime: 0.1
   _draggable: 1
   _interpolationSpeed: 10
+  _insertRadius: 0.5
   _restriction: 1
   _planeNormal: {x: 0, y: 0, z: 1}
   _lineDirection: {x: 1, y: 0, z: 0}
   _localSpaceRestriction: 1
   _holdOffset: {x: 0, y: 0, z: -0.2}
-  _localSpaceOffset: 1
+  _localSpaceOffset: 0
   _rotateOnDrag: 0
   _holdRotation: {x: 0, y: 0, z: 0, w: 0}
   _localSpaceRotation: 1
@@ -1179,12 +1185,13 @@ MonoBehaviour:
   _maxClickTime: 0.1
   _draggable: 1
   _interpolationSpeed: 10
+  _insertRadius: 0.5
   _restriction: 1
   _planeNormal: {x: 0, y: 0, z: 1}
   _lineDirection: {x: 1, y: 0, z: 0}
   _localSpaceRestriction: 1
   _holdOffset: {x: 0, y: 0, z: -0.2}
-  _localSpaceOffset: 1
+  _localSpaceOffset: 0
   _rotateOnDrag: 0
   _holdRotation: {x: 0, y: 0, z: 0, w: 0}
   _localSpaceRotation: 1
@@ -1363,6 +1370,7 @@ MonoBehaviour:
   _animatePosition: 1
   _animateRotation: 1
   _animateScale: 1
+  _animateInWorldSpace: 1
 --- !u!114 &752349722
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1631,6 +1639,7 @@ MonoBehaviour:
   _animatePosition: 1
   _animateRotation: 1
   _animateScale: 1
+  _animateInWorldSpace: 1
 --- !u!114 &1170562671
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1647,12 +1656,13 @@ MonoBehaviour:
   _maxClickTime: 0.1
   _draggable: 1
   _interpolationSpeed: 10
+  _insertRadius: 0.5
   _restriction: 1
   _planeNormal: {x: 0, y: 0, z: 1}
   _lineDirection: {x: 1, y: 0, z: 0}
   _localSpaceRestriction: 1
   _holdOffset: {x: 0, y: 0, z: -0.2}
-  _localSpaceOffset: 1
+  _localSpaceOffset: 0
   _rotateOnDrag: 0
   _holdRotation: {x: 0, y: 0, z: 0, w: 0}
   _localSpaceRotation: 1
