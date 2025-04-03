@@ -4,5 +4,17 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/BulletinBoard/Scenes/BulletinBoard.unity
+    guid: 25253fc83e006314691436e3ce9c89f2
+  - enabled: 1
+    path: Assets/FruitGame/Scenes/FruitGame.unity
+    guid: 504d1ba0b7279e549b31ca43975442e3
+  - enabled: 1
+    path: Assets/GridLayers/Scenes/GridLayers.unity
+    guid: 3e634d9a79f2424409b69fa3359b1f0a
+  - enabled: 1
+    path: Assets/InifiniteCurves/Scenes/InfiniteCurves.unity
+    guid: c2354fb043eada64293e2287af4703da
   m_configObjects: {}
