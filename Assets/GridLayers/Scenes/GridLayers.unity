@@ -153,7 +153,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8491915}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.40000004, y: -0.000000014901161, z: 0.40000004}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -173,7 +173,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -224,12 +224,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: -0.40000004, y: -0.000000014901161, z: 0.40000004}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: -0.40000004, y: -0.000000014901161, z: 0.40000004}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &8491919
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -321,6 +324,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -355,7 +359,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 11983374}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.8000001, y: -0.000000014901161, z: 0.8000001}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -375,7 +379,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -426,12 +430,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: -0.8000001, y: -0.000000014901161, z: 0.8000001}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: -0.8000001, y: -0.000000014901161, z: 0.8000001}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &11983378
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -523,6 +530,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -557,7 +565,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 13912235}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.4, y: 0.8, z: 0.000000014901161}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -577,7 +585,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -628,12 +636,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: 0.4, y: 0.8, z: 0.000000014901161}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: 0.4, y: 0.8, z: 0.000000014901161}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &13912239
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -725,6 +736,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -759,7 +771,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 38873160}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.4, y: -0.40000004, z: -0.8}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -779,7 +791,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -830,12 +842,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: 0.4, y: -0.40000004, z: -0.8}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: 0.4, y: -0.40000004, z: -0.8}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &38873164
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -927,6 +942,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -961,7 +977,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 42999939}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.000000014901161, y: -0.8000001, z: -0.8}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -981,7 +997,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -1032,12 +1048,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: -0.000000014901161, y: -0.8000001, z: -0.8}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: -0.000000014901161, y: -0.8000001, z: -0.8}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &42999943
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1129,6 +1148,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -1163,7 +1183,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 50009814}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.8, y: -0.000000014901161, z: -0.4}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -1183,7 +1203,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -1234,12 +1254,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: 0.8, y: -0.000000014901161, z: -0.4}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: 0.8, y: -0.000000014901161, z: -0.4}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &50009818
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1331,6 +1354,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -1365,7 +1389,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 54842196}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.40000004, y: -0.000000014901161, z: -0.8}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -1385,7 +1409,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -1436,12 +1460,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: -0.40000004, y: -0.000000014901161, z: -0.8}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: -0.40000004, y: -0.000000014901161, z: -0.8}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &54842200
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1533,6 +1560,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -1567,7 +1595,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 84823056}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.8000001, y: 0.4, z: -0.4}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -1587,7 +1615,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -1638,12 +1666,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: -0.8000001, y: 0.4, z: -0.4}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: -0.8000001, y: 0.4, z: -0.4}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &84823060
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1735,6 +1766,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -1867,7 +1899,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 93753875}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.40000004, y: 0.4, z: 0.8000001}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -1887,7 +1919,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -1938,12 +1970,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: -0.40000004, y: 0.4, z: 0.8000001}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: -0.40000004, y: 0.4, z: 0.8000001}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &93753879
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2035,6 +2070,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -2069,7 +2105,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 105638859}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.000000014901161, y: -0.40000004, z: 0.000000014901161}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -2089,7 +2125,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -2140,12 +2176,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: -0.000000014901161, y: -0.40000004, z: 0.000000014901161}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: -0.000000014901161, y: -0.40000004, z: 0.000000014901161}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &105638863
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2237,6 +2276,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -2385,7 +2425,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -2436,12 +2476,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: -0.40000004, y: -0.8000001, z: 0.000000014901161}
   TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: -0.40000004, y: -0.8000001, z: 0.000000014901161}
   TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &133616388
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2533,6 +2576,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -2567,7 +2611,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 163796539}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.40000004, y: -0.000000014901161, z: 0.8000001}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -2587,7 +2631,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -2638,12 +2682,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: -0.40000004, y: -0.000000014901161, z: 0.8000001}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: -0.40000004, y: -0.000000014901161, z: 0.8000001}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &163796543
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2735,6 +2782,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -2863,7 +2911,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 174867306}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.8, y: -0.40000004, z: -0.8}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -2883,7 +2931,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -2934,12 +2982,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: 0.8, y: -0.40000004, z: -0.8}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: 0.8, y: -0.40000004, z: -0.8}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &174867310
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3031,6 +3082,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -3210,7 +3262,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 209435344}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.8, y: 0.8, z: -0.4}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -3230,7 +3282,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -3281,12 +3333,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: 0.8, y: 0.8, z: -0.4}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: 0.8, y: 0.8, z: -0.4}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &209435348
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3378,6 +3433,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -3429,7 +3485,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92ad6c98a8b22be48a6ceefb2e1e6758, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _column: 2
   _row: 2
   _layer: 2
@@ -3459,12 +3515,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0, y: 0, z: 0}
   ComponentScale: {x: 1, y: 1, z: 1}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: -0.000000014901161, y: -0.000000014901161, z: 0.000000014901161}
   TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 1, y: 1, z: 1}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: -0.000000014901161, y: -0.000000014901161, z: 0.000000014901161}
   TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 1, y: 1, z: 1}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!114 &214441815
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3477,7 +3536,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 2
   _width: 4.5261955
   _widthOfParent: 1
@@ -3644,7 +3703,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 219602117}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.8000001, y: -0.000000014901161, z: -0.4}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -3664,7 +3723,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -3715,12 +3774,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: -0.8000001, y: -0.000000014901161, z: -0.4}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: -0.8000001, y: -0.000000014901161, z: -0.4}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &219602121
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3812,6 +3874,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -3846,7 +3909,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 244291740}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.40000004, y: 0.8, z: 0.8000001}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -3866,7 +3929,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -3917,12 +3980,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: -0.40000004, y: 0.8, z: 0.8000001}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: -0.40000004, y: 0.8, z: 0.8000001}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &244291744
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4014,6 +4080,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -4048,7 +4115,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 248841138}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.8, y: -0.40000004, z: 0.40000004}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -4068,7 +4135,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -4119,12 +4186,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: 0.8, y: -0.40000004, z: 0.40000004}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: 0.8, y: -0.40000004, z: 0.40000004}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &248841142
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4216,6 +4286,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -4250,7 +4321,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 253555244}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.000000014901161, y: 0.8, z: -0.4}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -4270,7 +4341,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -4321,12 +4392,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: -0.000000014901161, y: 0.8, z: -0.4}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: -0.000000014901161, y: 0.8, z: -0.4}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &253555248
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4418,6 +4492,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -4582,7 +4657,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 277951298}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.40000004, y: 0.4, z: 0.40000004}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -4602,7 +4677,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -4653,12 +4728,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: -0.40000004, y: 0.4, z: 0.40000004}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: -0.40000004, y: 0.4, z: 0.40000004}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &277951302
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4750,6 +4828,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -4784,7 +4863,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 284211553}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.40000004, y: -0.000000014901161, z: 0.000000014901161}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -4804,7 +4883,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -4855,12 +4934,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: -0.40000004, y: -0.000000014901161, z: 0.000000014901161}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: -0.40000004, y: -0.000000014901161, z: 0.000000014901161}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &284211557
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4952,6 +5034,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -4986,7 +5069,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 288408759}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.000000014901161, y: -0.40000004, z: -0.8}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -5006,7 +5089,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -5057,12 +5140,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: -0.000000014901161, y: -0.40000004, z: -0.8}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: -0.000000014901161, y: -0.40000004, z: -0.8}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &288408763
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5154,6 +5240,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -5286,7 +5373,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 301142524}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.8, y: -0.000000014901161, z: 0.8000001}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -5306,7 +5393,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -5357,12 +5444,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: 0.8, y: -0.000000014901161, z: 0.8000001}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: 0.8, y: -0.000000014901161, z: 0.8000001}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &301142528
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5454,6 +5544,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -5488,7 +5579,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 314396614}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.8, y: -0.000000014901161, z: -0.8}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -5508,7 +5599,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -5559,12 +5650,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: 0.8, y: -0.000000014901161, z: -0.8}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: 0.8, y: -0.000000014901161, z: -0.8}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &314396618
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5656,6 +5750,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -5788,7 +5883,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 360514781}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.40000004, y: -0.40000004, z: 0.000000014901161}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -5808,7 +5903,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -5859,12 +5954,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: -0.40000004, y: -0.40000004, z: 0.000000014901161}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: -0.40000004, y: -0.40000004, z: 0.000000014901161}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &360514785
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5956,6 +6054,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -5990,7 +6089,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 360720502}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.8000001, y: 0.8, z: 0.8000001}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -6010,7 +6109,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -6061,12 +6160,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: -0.8000001, y: 0.8, z: 0.8000001}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: -0.8000001, y: 0.8, z: 0.8000001}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &360720506
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6158,6 +6260,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -6192,7 +6295,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 367062866}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.8000001, y: 0.8, z: -0.8}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -6212,7 +6315,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -6263,12 +6366,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: -0.8000001, y: 0.8, z: -0.8}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: -0.8000001, y: 0.8, z: -0.8}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &367062870
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6360,6 +6466,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -6489,12 +6596,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 3.5, y: 0.00030041725, z: 3.5000005}
   ComponentScale: {x: 1, y: 1, z: 1}
+  FillSize: {x: 1, y: 1, z: 1}
   TargetPosition: {x: 0, y: -0, z: -2.5}
   TargetRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
   TargetScale: {x: 7, y: 7, z: 6}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: 0, y: -0, z: -2.5}
   TransformRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
   TransformScale: {x: 7, y: 7, z: 6}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!1 &421511791
 GameObject:
   m_ObjectHideFlags: 0
@@ -6525,7 +6635,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 421511791}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.40000004, y: -0.8000001, z: -0.4}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -6545,7 +6655,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -6596,12 +6706,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: -0.40000004, y: -0.8000001, z: -0.4}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: -0.40000004, y: -0.8000001, z: -0.4}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &421511795
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6693,6 +6806,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -6747,7 +6861,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -6798,12 +6912,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: 0.8, y: -0.8000001, z: 0.8000001}
   TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: 0.8, y: -0.8000001, z: 0.8000001}
   TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &437737281
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6895,6 +7012,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -7027,7 +7145,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 474841622}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.4, y: -0.8000001, z: -0.4}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -7047,7 +7165,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -7098,12 +7216,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: 0.4, y: -0.8000001, z: -0.4}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: 0.4, y: -0.8000001, z: -0.4}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &474841626
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7195,6 +7316,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -7229,7 +7351,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 476081915}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.000000014901161, y: -0.8000001, z: -0.4}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -7249,7 +7371,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -7300,12 +7422,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: -0.000000014901161, y: -0.8000001, z: -0.4}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: -0.000000014901161, y: -0.8000001, z: -0.4}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &476081919
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7397,6 +7522,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -7431,7 +7557,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 487855842}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.40000004, y: 0.8, z: -0.4}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -7451,7 +7577,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -7502,12 +7628,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: -0.40000004, y: 0.8, z: -0.4}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: -0.40000004, y: 0.8, z: -0.4}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &487855846
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7599,6 +7728,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -7685,7 +7815,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 521388200}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.000000014901161, y: 0.4, z: 0.000000014901161}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -7705,7 +7835,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -7756,12 +7886,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: -0.000000014901161, y: 0.4, z: 0.000000014901161}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: -0.000000014901161, y: 0.4, z: 0.000000014901161}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &521388204
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7853,6 +7986,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -7985,7 +8119,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 524652703}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.4, y: 0.8, z: 0.40000004}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -8005,7 +8139,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -8056,12 +8190,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: 0.4, y: 0.8, z: 0.40000004}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: 0.4, y: 0.8, z: 0.40000004}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &524652707
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8153,6 +8290,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -8187,7 +8325,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 526003526}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.8, y: -0.8000001, z: -0.4}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -8207,7 +8345,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -8258,12 +8396,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: 0.8, y: -0.8000001, z: -0.4}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: 0.8, y: -0.8000001, z: -0.4}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &526003530
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8355,6 +8496,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -8389,7 +8531,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 541482646}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.4, y: 0.4, z: 0.000000014901161}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -8409,7 +8551,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -8460,12 +8602,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: 0.4, y: 0.4, z: 0.000000014901161}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: 0.4, y: 0.4, z: 0.000000014901161}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &541482650
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8557,6 +8702,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -8611,7 +8757,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -8662,12 +8808,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: -0.8000001, y: -0.8000001, z: 0.40000004}
   TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: -0.8000001, y: -0.8000001, z: 0.40000004}
   TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &549077970
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8759,6 +8908,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -8911,7 +9061,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -8962,12 +9112,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: -0.000000014901161, y: -0.8000001, z: 0.8000001}
   TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: -0.000000014901161, y: -0.8000001, z: 0.8000001}
   TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &589756762
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9059,6 +9212,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -9093,7 +9247,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 591209931}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.000000014901161, y: 0.4, z: 0.8000001}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -9113,7 +9267,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -9164,12 +9318,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: -0.000000014901161, y: 0.4, z: 0.8000001}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: -0.000000014901161, y: 0.4, z: 0.8000001}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &591209935
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9261,6 +9418,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -9295,7 +9453,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 605302237}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.8000001, y: -0.8000001, z: -0.8}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -9315,7 +9473,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -9366,12 +9524,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: -0.8000001, y: -0.8000001, z: -0.8}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: -0.8000001, y: -0.8000001, z: -0.8}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &605302241
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9463,6 +9624,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -9595,7 +9757,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 643355678}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.4, y: -0.40000004, z: 0.8000001}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -9615,7 +9777,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -9666,12 +9828,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: 0.4, y: -0.40000004, z: 0.8000001}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: 0.4, y: -0.40000004, z: 0.8000001}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &643355682
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9763,6 +9928,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -9797,7 +9963,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 655132826}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.8000001, y: -0.000000014901161, z: 0.40000004}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -9817,7 +9983,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -9868,12 +10034,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: -0.8000001, y: -0.000000014901161, z: 0.40000004}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: -0.8000001, y: -0.000000014901161, z: 0.40000004}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &655132830
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9965,6 +10134,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -9999,7 +10169,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 659331535}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.8, y: -0.8000001, z: 0.000000014901161}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -10019,7 +10189,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -10070,12 +10240,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: 0.8, y: -0.8000001, z: 0.000000014901161}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: 0.8, y: -0.8000001, z: 0.000000014901161}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &659331539
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10167,6 +10340,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -10201,7 +10375,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 668998197}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.40000004, y: -0.40000004, z: -0.8}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -10221,7 +10395,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -10272,12 +10446,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: -0.40000004, y: -0.40000004, z: -0.8}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: -0.40000004, y: -0.40000004, z: -0.8}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &668998201
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10369,6 +10546,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -10403,7 +10581,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 708774338}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.000000014901161, y: -0.40000004, z: 0.40000004}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -10423,7 +10601,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -10474,12 +10652,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: -0.000000014901161, y: -0.40000004, z: 0.40000004}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: -0.000000014901161, y: -0.40000004, z: 0.40000004}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &708774342
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10571,6 +10752,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -10605,7 +10787,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 733722663}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.000000014901161, y: -0.000000014901161, z: 0.000000014901161}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -10625,7 +10807,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -10676,12 +10858,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: -0.000000014901161, y: -0.000000014901161, z: 0.000000014901161}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: -0.000000014901161, y: -0.000000014901161, z: 0.000000014901161}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &733722667
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10773,6 +10958,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -10807,7 +10993,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 760152435}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.8, y: 0.4, z: 0.8000001}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -10827,7 +11013,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -10878,12 +11064,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: 0.8, y: 0.4, z: 0.8000001}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: 0.8, y: 0.4, z: 0.8000001}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &760152439
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10975,6 +11164,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -11009,7 +11199,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 780481888}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.000000014901161, y: 0.4, z: -0.8}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -11029,7 +11219,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -11080,12 +11270,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: -0.000000014901161, y: 0.4, z: -0.8}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: -0.000000014901161, y: 0.4, z: -0.8}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &780481892
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11177,6 +11370,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -11211,7 +11405,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 796915125}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.4, y: -0.40000004, z: 0.000000014901161}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -11231,7 +11425,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -11282,12 +11476,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: 0.4, y: -0.40000004, z: 0.000000014901161}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: 0.4, y: -0.40000004, z: 0.000000014901161}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &796915129
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11379,6 +11576,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -11511,7 +11709,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 827563072}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.8, y: -0.000000014901161, z: 0.000000014901161}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -11531,7 +11729,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -11582,12 +11780,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: 0.8, y: -0.000000014901161, z: 0.000000014901161}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: 0.8, y: -0.000000014901161, z: 0.000000014901161}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &827563076
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11679,6 +11880,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -11713,7 +11915,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 847360120}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.8, y: 0.4, z: 0.000000014901161}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -11733,7 +11935,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -11784,12 +11986,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: 0.8, y: 0.4, z: 0.000000014901161}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: 0.8, y: 0.4, z: 0.000000014901161}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &847360124
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11881,6 +12086,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -11915,7 +12121,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 871476387}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.000000014901161, y: 0.8, z: 0.8000001}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -11935,7 +12141,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -11986,12 +12192,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: -0.000000014901161, y: 0.8, z: 0.8000001}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: -0.000000014901161, y: 0.8, z: 0.8000001}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &871476391
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12083,6 +12292,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -12215,7 +12425,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 901764500}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.40000004, y: 0.8, z: 0.000000014901161}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -12235,7 +12445,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -12286,12 +12496,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: -0.40000004, y: 0.8, z: 0.000000014901161}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: -0.40000004, y: 0.8, z: 0.000000014901161}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &901764504
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12383,6 +12596,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -12437,7 +12651,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -12488,12 +12702,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: -0.40000004, y: -0.8000001, z: 0.40000004}
   TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: -0.40000004, y: -0.8000001, z: 0.40000004}
   TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &922691071
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12585,6 +12802,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -12639,7 +12857,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -12690,12 +12908,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: 0.4, y: -0.8000001, z: 0.000000014901161}
   TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: 0.4, y: -0.8000001, z: 0.000000014901161}
   TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &952380527
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12787,6 +13008,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -12821,7 +13043,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 976161519}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.4, y: 0.4, z: 0.8000001}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -12841,7 +13063,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -12892,12 +13114,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: 0.4, y: 0.4, z: 0.8000001}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: 0.4, y: 0.4, z: 0.8000001}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &976161523
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12989,6 +13214,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -13023,7 +13249,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 978479966}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.40000004, y: 0.4, z: -0.8}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -13043,7 +13269,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -13094,12 +13320,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: -0.40000004, y: 0.4, z: -0.8}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: -0.40000004, y: 0.4, z: -0.8}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &978479970
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13191,6 +13420,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -13225,7 +13455,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 983806256}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.8, y: -0.000000014901161, z: 0.40000004}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -13245,7 +13475,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -13296,12 +13526,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: 0.8, y: -0.000000014901161, z: 0.40000004}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: 0.8, y: -0.000000014901161, z: 0.40000004}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &983806260
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13393,6 +13626,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -13427,7 +13661,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1001102352}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.8, y: -0.8000001, z: -0.8}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -13447,7 +13681,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -13498,12 +13732,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: 0.8, y: -0.8000001, z: -0.8}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: 0.8, y: -0.8000001, z: -0.8}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &1001102356
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13595,6 +13832,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -13629,7 +13867,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1018556933}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.8000001, y: -0.40000004, z: -0.4}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -13649,7 +13887,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -13700,12 +13938,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: -0.8000001, y: -0.40000004, z: -0.4}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: -0.8000001, y: -0.40000004, z: -0.4}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &1018556937
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13797,6 +14038,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -13831,7 +14073,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1028320597}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.000000014901161, y: 0.8, z: 0.000000014901161}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -13851,7 +14093,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -13902,12 +14144,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: -0.000000014901161, y: 0.8, z: 0.000000014901161}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: -0.000000014901161, y: 0.8, z: 0.000000014901161}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &1028320601
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13999,6 +14244,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -14033,7 +14279,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1038911139}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.8000001, y: -0.000000014901161, z: 0.000000014901161}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -14053,7 +14299,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -14104,12 +14350,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: -0.8000001, y: -0.000000014901161, z: 0.000000014901161}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: -0.8000001, y: -0.000000014901161, z: 0.000000014901161}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &1038911143
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14201,6 +14450,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -14235,7 +14485,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1080901143}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.40000004, y: -0.40000004, z: -0.4}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -14255,7 +14505,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -14306,12 +14556,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: -0.40000004, y: -0.40000004, z: -0.4}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: -0.40000004, y: -0.40000004, z: -0.4}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &1080901147
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14403,6 +14656,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -14437,7 +14691,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1119148725}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.40000004, y: 0.8, z: -0.8}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -14457,7 +14711,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -14508,12 +14762,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: -0.40000004, y: 0.8, z: -0.8}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: -0.40000004, y: 0.8, z: -0.8}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &1119148729
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14605,6 +14862,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -14639,7 +14897,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1127768758}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.40000004, y: -0.8000001, z: -0.8}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -14659,7 +14917,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -14710,12 +14968,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: -0.40000004, y: -0.8000001, z: -0.8}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: -0.40000004, y: -0.8000001, z: -0.8}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &1127768762
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14807,6 +15068,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -14841,7 +15103,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1147265026}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.8, y: -0.40000004, z: 0.000000014901161}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -14861,7 +15123,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -14912,12 +15174,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: 0.8, y: -0.40000004, z: 0.000000014901161}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: 0.8, y: -0.40000004, z: 0.000000014901161}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &1147265030
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15009,6 +15274,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -15141,7 +15407,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1149290123}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.4, y: 0.4, z: 0.40000004}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -15161,7 +15427,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -15212,12 +15478,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: 0.4, y: 0.4, z: 0.40000004}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: 0.4, y: 0.4, z: 0.40000004}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &1149290127
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15309,6 +15578,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -15363,7 +15633,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -15414,12 +15684,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: -0.8000001, y: -0.8000001, z: 0.000000014901161}
   TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: -0.8000001, y: -0.8000001, z: 0.000000014901161}
   TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &1152889044
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15511,6 +15784,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -15545,7 +15819,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1155991663}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.8, y: -0.40000004, z: -0.4}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -15565,7 +15839,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -15616,12 +15890,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: 0.8, y: -0.40000004, z: -0.4}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: 0.8, y: -0.40000004, z: -0.4}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &1155991667
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15713,6 +15990,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -15747,7 +16025,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1167542289}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.8, y: 0.4, z: 0.40000004}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -15767,7 +16045,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -15818,12 +16096,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: 0.8, y: 0.4, z: 0.40000004}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: 0.8, y: 0.4, z: 0.40000004}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &1167542293
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15915,6 +16196,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -15949,7 +16231,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1180275003}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.4, y: -0.000000014901161, z: 0.8000001}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -15969,7 +16251,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -16020,12 +16302,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: 0.4, y: -0.000000014901161, z: 0.8000001}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: 0.4, y: -0.000000014901161, z: 0.8000001}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &1180275007
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16117,6 +16402,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -16151,7 +16437,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1211523202}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.40000004, y: -0.40000004, z: 0.40000004}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -16171,7 +16457,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -16222,12 +16508,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: -0.40000004, y: -0.40000004, z: 0.40000004}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: -0.40000004, y: -0.40000004, z: 0.40000004}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &1211523206
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16319,6 +16608,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -16451,7 +16741,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1246257072}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.000000014901161, y: -0.000000014901161, z: 0.8000001}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -16471,7 +16761,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -16522,12 +16812,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: -0.000000014901161, y: -0.000000014901161, z: 0.8000001}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: -0.000000014901161, y: -0.000000014901161, z: 0.8000001}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &1246257076
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16619,6 +16912,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -16751,7 +17045,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1278172355}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.4, y: -0.000000014901161, z: 0.40000004}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -16771,7 +17065,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -16822,12 +17116,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: 0.4, y: -0.000000014901161, z: 0.40000004}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: 0.4, y: -0.000000014901161, z: 0.40000004}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &1278172359
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16919,6 +17216,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -16953,7 +17251,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1281921706}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.8000001, y: 0.8, z: -0.4}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -16973,7 +17271,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -17024,12 +17322,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: -0.8000001, y: 0.8, z: -0.4}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: -0.8000001, y: 0.8, z: -0.4}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &1281921710
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17121,6 +17422,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -17175,7 +17477,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -17226,12 +17528,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: -0.000000014901161, y: -0.8000001, z: 0.40000004}
   TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: -0.000000014901161, y: -0.8000001, z: 0.40000004}
   TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &1337404913
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17323,6 +17628,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -17357,7 +17663,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1342143152}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.8000001, y: -0.40000004, z: -0.8}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -17377,7 +17683,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -17428,12 +17734,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: -0.8000001, y: -0.40000004, z: -0.8}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: -0.8000001, y: -0.40000004, z: -0.8}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &1342143156
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17525,6 +17834,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -17559,7 +17869,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1351044939}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.8000001, y: 0.4, z: 0.8000001}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -17579,7 +17889,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -17630,12 +17940,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: -0.8000001, y: 0.4, z: 0.8000001}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: -0.8000001, y: 0.4, z: 0.8000001}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &1351044943
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17727,6 +18040,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -17781,7 +18095,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -17832,12 +18146,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: -0.40000004, y: -0.8000001, z: 0.8000001}
   TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: -0.40000004, y: -0.8000001, z: 0.8000001}
   TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &1374710483
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17929,6 +18246,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -17963,7 +18281,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1381809309}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.4, y: 0.4, z: -0.4}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -17983,7 +18301,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -18034,12 +18352,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: 0.4, y: 0.4, z: -0.4}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: 0.4, y: 0.4, z: -0.4}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &1381809313
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18131,6 +18452,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -18168,7 +18490,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 3
   _width: 1
   _widthOfParent: 1
@@ -18219,12 +18541,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.95000005, y: 0.9500003, z: 0.9500003}
   ComponentScale: {x: 1, y: 1, z: 1}
+  FillSize: {x: 7, y: 7, z: 0.00059999997}
   TargetPosition: {x: 0, y: 0.9500004, z: -2.5}
-  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1.0000001}
   TargetScale: {x: 1, y: 1, z: 1}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: 0, y: 0.9500004, z: -2.5}
   TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 1, y: 1, z: 1}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!114 &1391087839
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18237,7 +18562,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eded17fd0745dfb4f80ee23e2a11266a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _cellType: 0
   _columns: 5
   _rows: 5
@@ -19044,7 +19369,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bc6c8a2e47ba064e8c2a0953ba81718, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _target: {fileID: 411811884}
   _horizontalAlign: 1
   _verticalAlign: 1
@@ -19097,7 +19422,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1407543608}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.4, y: -0.40000004, z: -0.4}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -19117,7 +19442,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -19168,12 +19493,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: 0.4, y: -0.40000004, z: -0.4}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: 0.4, y: -0.40000004, z: -0.4}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &1407543612
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19265,6 +19593,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -19299,7 +19628,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1419634070}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.000000014901161, y: 0.8, z: 0.40000004}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -19319,7 +19648,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -19370,12 +19699,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: -0.000000014901161, y: 0.8, z: 0.40000004}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: -0.000000014901161, y: 0.8, z: 0.40000004}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &1419634074
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19467,6 +19799,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -19501,7 +19834,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1433779558}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.8, y: 0.4, z: -0.4}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -19521,7 +19854,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -19572,12 +19905,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: 0.8, y: 0.4, z: -0.4}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: 0.8, y: 0.4, z: -0.4}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &1433779562
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19669,6 +20005,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -19703,7 +20040,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1441373563}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.4, y: 0.8, z: -0.8}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -19723,7 +20060,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -19774,12 +20111,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: 0.4, y: 0.8, z: -0.8}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: 0.4, y: 0.8, z: -0.8}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &1441373567
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19871,6 +20211,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -19905,7 +20246,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1461302288}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.4, y: -0.40000004, z: 0.40000004}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -19925,7 +20266,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -19976,12 +20317,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: 0.4, y: -0.40000004, z: 0.40000004}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: 0.4, y: -0.40000004, z: 0.40000004}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &1461302292
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20073,6 +20417,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -20107,7 +20452,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1463225999}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.8000001, y: 0.4, z: 0.000000014901161}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -20127,7 +20472,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -20178,12 +20523,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: -0.8000001, y: 0.4, z: 0.000000014901161}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: -0.8000001, y: 0.4, z: 0.000000014901161}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &1463226003
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20275,6 +20623,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -20309,7 +20658,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1463574642}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.8000001, y: 0.8, z: 0.000000014901161}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -20329,7 +20678,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -20380,12 +20729,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: -0.8000001, y: 0.8, z: 0.000000014901161}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: -0.8000001, y: 0.8, z: 0.000000014901161}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &1463574646
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20477,6 +20829,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -20511,7 +20864,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1468083525}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.40000004, y: -0.000000014901161, z: -0.4}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -20531,7 +20884,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -20582,12 +20935,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: -0.40000004, y: -0.000000014901161, z: -0.4}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: -0.40000004, y: -0.000000014901161, z: -0.4}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &1468083529
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20679,6 +21035,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -20713,7 +21070,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1468167031}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.000000014901161, y: -0.000000014901161, z: -0.4}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -20733,7 +21090,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -20784,12 +21141,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: -0.000000014901161, y: -0.000000014901161, z: -0.4}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: -0.000000014901161, y: -0.000000014901161, z: -0.4}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &1468167035
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20881,6 +21241,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -20915,7 +21276,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1474427927}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.8000001, y: -0.8000001, z: -0.4}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -20935,7 +21296,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -20986,12 +21347,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: -0.8000001, y: -0.8000001, z: -0.4}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: -0.8000001, y: -0.8000001, z: -0.4}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &1474427931
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21083,6 +21447,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -21117,7 +21482,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1482957607}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.4, y: -0.000000014901161, z: -0.8}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -21137,7 +21502,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -21188,12 +21553,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: 0.4, y: -0.000000014901161, z: -0.8}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: 0.4, y: -0.000000014901161, z: -0.8}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &1482957611
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21285,6 +21653,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -21319,7 +21688,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1493294998}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.000000014901161, y: -0.000000014901161, z: 0.40000004}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -21339,7 +21708,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -21390,12 +21759,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: -0.000000014901161, y: -0.000000014901161, z: 0.40000004}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: -0.000000014901161, y: -0.000000014901161, z: 0.40000004}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &1493295002
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21487,6 +21859,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -21521,7 +21894,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1505252766}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.8, y: 0.8, z: 0.8000001}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -21541,7 +21914,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -21592,12 +21965,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: 0.8, y: 0.8, z: 0.8000001}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: 0.8, y: 0.8, z: 0.8000001}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &1505252770
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21689,6 +22065,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -21723,7 +22100,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1530088268}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.8000001, y: -0.40000004, z: 0.8000001}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -21743,7 +22120,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -21794,12 +22171,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: -0.8000001, y: -0.40000004, z: 0.8000001}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: -0.8000001, y: -0.40000004, z: 0.8000001}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &1530088272
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21891,6 +22271,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -21925,7 +22306,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1555827987}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.4, y: 0.4, z: -0.8}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -21945,7 +22326,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -21996,12 +22377,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: 0.4, y: 0.4, z: -0.8}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: 0.4, y: 0.4, z: -0.8}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &1555827991
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22093,6 +22477,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -22147,7 +22532,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -22198,12 +22583,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: 0.8, y: -0.8000001, z: 0.40000004}
   TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: 0.8, y: -0.8000001, z: 0.40000004}
   TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &1560902493
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22295,6 +22683,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -22329,7 +22718,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1561428519}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.000000014901161, y: -0.40000004, z: 0.8000001}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -22349,7 +22738,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -22400,12 +22789,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: -0.000000014901161, y: -0.40000004, z: 0.8000001}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: -0.000000014901161, y: -0.40000004, z: 0.8000001}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &1561428523
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22497,6 +22889,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -22531,7 +22924,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1591183232}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.8000001, y: -0.40000004, z: 0.000000014901161}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -22551,7 +22944,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -22602,12 +22995,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: -0.8000001, y: -0.40000004, z: 0.000000014901161}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: -0.8000001, y: -0.40000004, z: 0.000000014901161}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &1591183236
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22699,6 +23095,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -22851,7 +23248,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -22902,12 +23299,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: -0.000000014901161, y: -0.8000001, z: 0.000000014901161}
   TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: -0.000000014901161, y: -0.8000001, z: 0.000000014901161}
   TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &1605344682
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22999,6 +23399,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -23080,7 +23481,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1612062855}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.40000004, y: 0.8, z: 0.40000004}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -23100,7 +23501,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -23151,12 +23552,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: -0.40000004, y: 0.8, z: 0.40000004}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: -0.40000004, y: 0.8, z: 0.40000004}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &1612062859
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23248,6 +23652,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -23380,7 +23785,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1654010198}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.8, y: 0.4, z: -0.8}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -23400,7 +23805,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -23451,12 +23856,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: 0.8, y: 0.4, z: -0.8}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: 0.8, y: 0.4, z: -0.8}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &1654010202
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23548,6 +23956,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -23582,7 +23991,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1655876202}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.4, y: 0.8, z: 0.8000001}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -23602,7 +24011,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -23653,12 +24062,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: 0.4, y: 0.8, z: 0.8000001}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: 0.4, y: 0.8, z: 0.8000001}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &1655876206
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23750,6 +24162,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -23882,7 +24295,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1753903510}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.40000004, y: 0.4, z: 0.000000014901161}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -23902,7 +24315,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -23953,12 +24366,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: -0.40000004, y: 0.4, z: 0.000000014901161}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: -0.40000004, y: 0.4, z: 0.000000014901161}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &1753903514
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24050,6 +24466,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -24084,7 +24501,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1756449283}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.8, y: 0.8, z: 0.000000014901161}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -24104,7 +24521,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -24155,12 +24572,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: 0.8, y: 0.8, z: 0.000000014901161}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: 0.8, y: 0.8, z: 0.000000014901161}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &1756449287
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24252,6 +24672,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -24286,7 +24707,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1763570115}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.8000001, y: 0.4, z: -0.8}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -24306,7 +24727,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -24357,12 +24778,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: -0.8000001, y: 0.4, z: -0.8}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: -0.8000001, y: 0.4, z: -0.8}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &1763570119
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24454,6 +24878,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -24488,7 +24913,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1773655711}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.8, y: 0.8, z: -0.8}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -24508,7 +24933,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -24559,12 +24984,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: 0.8, y: 0.8, z: -0.8}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: 0.8, y: 0.8, z: -0.8}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &1773655715
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24656,6 +25084,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -24690,7 +25119,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1775449138}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.000000014901161, y: -0.000000014901161, z: -0.8}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -24710,7 +25139,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -24761,12 +25190,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: -0.000000014901161, y: -0.000000014901161, z: -0.8}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: -0.000000014901161, y: -0.000000014901161, z: -0.8}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &1775449142
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24858,6 +25290,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -24892,7 +25325,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1791684912}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.8000001, y: 0.8, z: 0.40000004}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -24912,7 +25345,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -24963,12 +25396,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: -0.8000001, y: 0.8, z: 0.40000004}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: -0.8000001, y: 0.8, z: 0.40000004}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &1791684916
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25060,6 +25496,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -25094,7 +25531,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1794777592}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.4, y: -0.8000001, z: -0.8}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -25114,7 +25551,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -25165,12 +25602,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: 0.4, y: -0.8000001, z: -0.8}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: 0.4, y: -0.8000001, z: -0.8}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &1794777596
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25262,6 +25702,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -25296,7 +25737,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1796861064}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.4, y: 0.8, z: -0.4}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -25316,7 +25757,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -25367,12 +25808,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: 0.4, y: 0.8, z: -0.4}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: 0.4, y: 0.8, z: -0.4}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &1796861068
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25464,6 +25908,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -25518,7 +25963,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -25569,12 +26014,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: 0.4, y: -0.8000001, z: 0.8000001}
   TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: 0.4, y: -0.8000001, z: 0.8000001}
   TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &1815726555
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25666,6 +26114,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -25700,7 +26149,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1825667717}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.000000014901161, y: 0.8, z: -0.8}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -25720,7 +26169,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -25771,12 +26220,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: -0.000000014901161, y: 0.8, z: -0.8}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: -0.000000014901161, y: 0.8, z: -0.8}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &1825667721
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25868,6 +26320,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -25902,7 +26355,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1859658405}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.8000001, y: -0.40000004, z: 0.40000004}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -25922,7 +26375,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -25973,12 +26426,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: -0.8000001, y: -0.40000004, z: 0.40000004}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: -0.8000001, y: -0.40000004, z: 0.40000004}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &1859658409
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26070,6 +26526,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -26104,7 +26561,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1866020481}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.8000001, y: 0.4, z: 0.40000004}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -26124,7 +26581,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -26175,12 +26632,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: -0.8000001, y: 0.4, z: 0.40000004}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: -0.8000001, y: 0.4, z: 0.40000004}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &1866020485
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26272,6 +26732,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -26306,7 +26767,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1920581663}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.4, y: -0.000000014901161, z: -0.4}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -26326,7 +26787,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -26377,12 +26838,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: 0.4, y: -0.000000014901161, z: -0.4}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: 0.4, y: -0.000000014901161, z: -0.4}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &1920581667
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26474,6 +26938,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -26508,7 +26973,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1928551978}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.40000004, y: -0.40000004, z: 0.8000001}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -26528,7 +26993,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -26579,12 +27044,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: -0.40000004, y: -0.40000004, z: 0.8000001}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: -0.40000004, y: -0.40000004, z: 0.8000001}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &1928551982
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26676,6 +27144,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -26808,7 +27277,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1962139843}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.000000014901161, y: -0.40000004, z: -0.4}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -26828,7 +27297,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -26879,12 +27348,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: -0.000000014901161, y: -0.40000004, z: -0.4}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: -0.000000014901161, y: -0.40000004, z: -0.4}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &1962139847
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26976,6 +27448,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -27010,7 +27483,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1962652250}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.8, y: -0.40000004, z: 0.8000001}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -27030,7 +27503,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -27081,12 +27554,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: 0.8, y: -0.40000004, z: 0.8000001}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: 0.8, y: -0.40000004, z: 0.8000001}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &1962652254
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27178,6 +27654,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -27212,7 +27689,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1963977518}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.8, y: 0.8, z: 0.40000004}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -27232,7 +27709,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -27283,12 +27760,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: 0.8, y: 0.8, z: 0.40000004}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: 0.8, y: 0.8, z: 0.40000004}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &1963977522
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27380,6 +27860,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -27414,7 +27895,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1972259030}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.4, y: -0.000000014901161, z: 0.000000014901161}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -27434,7 +27915,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -27485,12 +27966,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: 0.4, y: -0.000000014901161, z: 0.000000014901161}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: 0.4, y: -0.000000014901161, z: 0.000000014901161}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &1972259034
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27582,6 +28066,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -27650,12 +28135,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: -0.8000001, y: -0.8000001, z: 0.8000001}
   TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: -0.8000001, y: -0.8000001, z: 0.8000001}
   TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &2040827298
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27731,7 +28219,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -27784,6 +28272,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -28018,7 +28507,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2071949189}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.8000001, y: -0.000000014901161, z: -0.8}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -28038,7 +28527,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -28089,12 +28578,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: -0.8000001, y: -0.000000014901161, z: -0.8}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: -0.8000001, y: -0.000000014901161, z: -0.8}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &2071949193
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28186,6 +28678,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -28220,7 +28713,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2080191763}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.000000014901161, y: 0.4, z: -0.4}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -28240,7 +28733,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -28291,12 +28784,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: -0.000000014901161, y: 0.4, z: -0.4}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: -0.000000014901161, y: 0.4, z: -0.4}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &2080191767
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28388,6 +28884,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -28422,7 +28919,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2112372806}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.40000004, y: 0.4, z: -0.4}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -28442,7 +28939,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -28493,12 +28990,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: -0.40000004, y: 0.4, z: -0.4}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: -0.40000004, y: 0.4, z: -0.4}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &2112372810
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28590,6 +29090,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -28644,7 +29145,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -28695,12 +29196,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: 0.4, y: -0.8000001, z: 0.40000004}
   TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: 0.4, y: -0.8000001, z: 0.40000004}
   TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &2120781815
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28792,6 +29296,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
@@ -28826,7 +29331,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2143099212}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.000000014901161, y: 0.4, z: 0.40000004}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -28846,7 +29351,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b0da67f6b3c9a4e84ed47af9da4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialized: 1
+  _version: 4
   _widthType: 0
   _width: 0.2
   _widthOfParent: 1
@@ -28897,12 +29402,15 @@ MonoBehaviour:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.1, y: 0.1, z: 0.1}
   ComponentScale: {x: 0.2, y: 0.2, z: 0.2}
+  FillSize: {x: 0.3, y: 0.3, z: 0.3}
   TargetPosition: {x: -0.000000014901161, y: 0.4, z: 0.40000004}
-  TargetRotation: {x: -0, y: -0, z: -0, w: 1}
+  TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   TargetScale: {x: 0.2, y: 0.2, z: 0.2}
+  TargetRectSize: {x: 0, y: 0, z: 0}
   TransformPosition: {x: -0.000000014901161, y: 0.4, z: 0.40000004}
-  TransformRotation: {x: -0, y: -0, z: -0, w: 1}
+  TransformRotation: {x: 0, y: 0, z: 0, w: 1}
   TransformScale: {x: 0.2, y: 0.2, z: 0.2}
+  TransformRectSize: {x: 0, y: 0}
 --- !u!65 &2143099216
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28994,6 +29502,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef3e0eb1054444469fffd83111a2682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animateInWorldSpace: 1
   _interpolationSpeed: 5
   _animatePosition: 1
   _animateRotation: 1
