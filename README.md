@@ -8,8 +8,8 @@ Get Flexalon 3D Layouts on the [Unity Asset Store](https://assetstore.unity.com/
 
 ## Getting Started
 
-1. Clone this repository and open the root folder in Unity.
-2. Import Flexalon from the package manager. [How do I import an asset store package?](https://docs.unity3d.com/Manual/upm-ui-import.html)
+1. Clone this repository and open the root folder in Unity 6.3 LTS (6000.3.28f1).
+2. Import Flexalon 2 (package version 5.0.0) from the package manager. Flexalon is required and is not included in this repository. [How do I import an asset store package?](https://docs.unity3d.com/Manual/upm-ui-import.html)
 3. Explore the examples! Each example is in a separate folder in the Assets directory.
 
 **Note**: These are only examples. You can learn from them and copy the assets into your project as you like. However, these examples are not thoroughly tested and are not designed to be easily reusable. You may run into issues such as render pipeline incompatibility or Unity versioning issues.
